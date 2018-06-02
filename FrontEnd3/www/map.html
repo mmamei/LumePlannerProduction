@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <title>LumePlanner</title>
+        <meta charset="utf-8">
+        <script src="js/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="js/leaflet.css" />
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet-providers.js"></script>
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="js/easy-button.css">
+        <script src="js/easy-button.js"></script>
+
+        <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="assets/css/jqm-demos.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="assets/js/index.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="js/jquery-ui.min.css" />
+        <link rel="stylesheet" type="text/css" href="js/leaflet-jquerydialog.css" />
+        <script src="js/leaflet-jquerydialog.js"></script>
+
+        <script src="cordova.js"></script>
+        <script src="js/aforismi.js"></script>
+        <script src="js/openfb.js"></script>
+        <script src="js/marker_icons.js"></script>
+        <script src="js/global.js"></script>
+        <script src="js/global_map.js"></script>
+        <script src="js/main/map.js"></script>
+
+        <script src="js/travelplanner/icons.js"></script>
+        <script src="js/travelplanner/risultati.js"></script>
+        <script src="js/travelplanner/travelplanner.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/travelplanner/main.css">
+        <link rel="stylesheet" href="css/travelplanner/table.css">
+
+        <style>
+            #mapPage {
+                height: 100%;
+                z-index: 1;
+                padding:0px;
+                margin:0px;
+                /* overflow:hidden;*/
+            }
+            #mapid {
+                height: 70%;
+                z-index: 1;
+                padding:0px;
+                margin:0px;
+                overflow:hidden;
+            }
+            #popup,#visit {
+                width:100%;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-align: center;
+                bottom: 1px !important;
+                height: 20% !important;
+            }
+
+            #visit_popup {
+                background-color: white;
+                border:solid;
+                position:absolute;
+                z-index:1001;
+                top:1%;
+                width:95%;
+                height:95%;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-align:center;
+                padding: 10px;
+                text-shadow: none;
+                overflow-y: scroll;
+            }
+
+            .info {
+                padding: 6px 8px;
+                font: 14px/16px Arial, Helvetica, sans-serif;
+                background: white;
+                background: rgba(255,255,255,0.8);
+                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                border-radius: 5px;
+            }
+            .info h4 {
+                margin: 0 0 5px;
+                color: #777;
+            }
+
+            .legend {
+                line-height: 18px;
+                color: #555;
+            }
+            .legend i {
+                width: 18px;
+                height: 18px;
+                float: left;
+                margin-right: 8px;
+                opacity: 0.7;
+            }
+        </style>
+
+        <script>
+            $(document).ready(function() {
+
+                $("#popup").hide();
+                $("#visit_popup").hide();
+
+                if (map_type == MAP_TYPES.NEXT_STEP)
+                    $("#itinerary").hide();
+                if (map_type == MAP_TYPES.MAP) {
+                    $("#mapid").css("height", "90%");
+                    $("#popup").css("bottom", "60px");
+                    $("#visit").hide();
+                    $("#bus").hide();
+                    $("#quit").hide()
+                }
+                if (map_type == MAP_TYPES.CROWD) {
+                    $("#mapid").css("height", "100%");
+                    $("#popup").css("bottom", "60px");
+                    $("#itinerary").hide();
+                    $("#visit").hide();
+                    $("#bus").hide();
+                    $("#quit").hide()
+                }
+            })
+        </script>
+
+    </head>
+    <body>
+
+    <div data-role="page" id="mapPage" class="jqm-demos jqm-home">
+
+        <div data-role="header" class="jqm-header"  data-position="fixed" >
+            <h2><img src="assets/img/logo-text.png" alt="jQuery Mobile"></h2>
+            <!--<p>Version <span class="jqm-version"></span></p> -->
+            <a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+        </div>
+        <div id="list_menu" data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a"></div>
+
+        <div id="mapid" data-role="content"></div>
+        <div id="popup" class="ui-corner-all ui-header" style="background-color: #38c; color:white"></div>
+
+
+        <div id="visit" class="ui-corner-all ui-header" style="background-color: #38c; color:white">
+                <span id="destination"></span><br>
+                <span style="font-size:small" id="dist"></span>
+                <div>
+                <span onclick='visitItinerary()' class='ui-btn ui-btn-b ui-corner-all ui-icon-carat-r ui-btn-icon-right ui-btn-active ui-state-persist'>Visita</span>&nbsp;
+                <!--<span onclick='computeRoute(currentDestination,ROUTE_TYPE.ITINERARY)' class='ui-btn ui-btn-b ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right ui-btn-active ui-state-persist'>Cammina</span>&nbsp;-->
+                <span onclick='getBusInfo(currentDestination,ROUTE_TYPE.ITINERARY)' class='ui-btn ui-btn-b ui-corner-all ui-icon-carat-r ui-btn-icon-right ui-btn-active ui-state-persist'>Bus</span>&nbsp;
+                <!--<span onclick='visitItinerary()' class='ui-btn ui-btn-b ui-shadow ui-corner-all ui-icon-delete ui-btn-icon-right ui-btn-active ui-state-persist'>Chiudi</span>-->
+                </div>
+                <span style="font-size:x-small" id="missing_stops"></span>
+        </div>
+        <div id="visit_popup"  class="ui-corner-all"></div>
+
+        <div id="itinerary" style="height:10%;margin:0px" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right ui-btn-active ui-state-persist"><div tkey="itineraries_go">Fai un percorso!</div></div>
+        <a id="quit" style="height:10%; margin:0px;" href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop"
+           class="ui-btn btn-primary ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-right ui-btn-active ui-state-persist" tkey="quit">Abbandona il percorso</a>
+        <div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false">
+            <div data-role="header" data-theme="a">
+                <h1>Abbandoni?</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <h3 class="ui-title">Sei sicuro di voler abbandonare il percorso?</h3>
+                <div id="real_quit" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Conferma</div>
+                <div class="ui-btn ui-corner-all ui-btn-inline ui-btn-b" data-rel="back">No</div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
