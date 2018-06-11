@@ -182,6 +182,12 @@ public class RESTController {
 		return true;
 	}
 
+	@RequestMapping(value = "help", method = RequestMethod.POST, headers = {"content-type=application/json"})
+	public @ResponseBody boolean help(@RequestBody HelpLog h) {
+		tracelog.info("HELP "+h.getUserid()+";"+h.getEmail()+";"+h.getText());
+		return true;
+	}
+
 
 
 
