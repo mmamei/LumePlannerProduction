@@ -112,7 +112,7 @@ public class ItineraryGenerator {
             for (int i = 0; i < Math.min(max_stops,pois_in_reach.size()); i++)
                 visits.add(pois_in_reach.get(i).getPlace_id());
 
-            Itinerary it = new Itinerary("auto_geg_iti"+count, "Itinerario "+count, visits, null, null, "Un itinerario tra le "+visits.size()+" attrazioni più interessanti vicino a te");
+            Itinerary it = new Itinerary("auto_geg_iti"+count, "Itinerario "+count, visits, null, null, "Un itinerario tra le "+visits.size()+" attrazioni interessanti vicino a te");
             computeApproxTimeMins(latlng, it);
             itineraries.add(it);
             count++;
