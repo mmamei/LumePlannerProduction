@@ -39,7 +39,7 @@ public class ExtraPoisCSVPreprocess {
     static Map<String,String> dict = new HashMap<String,String>();
     static {
         dict.put("nome azienda e ragione sociale","nome azienda");
-        dict.put("descrizione/attività","descrizione");
+        dict.put("descrizione/attivit&agrave;","descrizione");
         dict.put("referente/email/tel","contact");
     }
 
