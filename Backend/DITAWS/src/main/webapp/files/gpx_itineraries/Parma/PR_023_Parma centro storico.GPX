@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1" creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2018-06-10T13:02:16Z</time>
+    <bounds maxlat="44.810085017234087" maxlon="10.331226820126176" minlat="44.801665646955371" minlon="10.315818786621094"/>
+  </metadata>
+
+  <wpt lat="44.802546501159668" lon="10.327577590942383">
+    <time>2018-06-04T11:37:06Z</time>
+    <name>Basilica Di Santa Maria Della Steccata.</name>
+    <cmt>Basilica Di Santa Maria Della Steccata (Chiesa, Luogo Di Culto)
+
+Parma, Parma, ITA
+</cmt>
+    <desc>Basilica Di Santa Maria Della Steccata (Chiesa, Luogo Di Culto)
+
+Parma, Parma, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Parma</gpxx:City>
+          <gpxx:State>Parma</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Parma</wptx1:City>
+          <wptx1:State>Parma</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:37:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.803061485290527" lon="10.330367088317871">
+    <time>2018-06-04T11:35:44Z</time>
+    <name>Battistero Di San Giovanni.</name>
+    <cmt>Battistero Di San Giovanni (Attrazione)
+
+Parma, Parma, ITA
+</cmt>
+    <desc>Battistero Di San Giovanni (Attrazione)
+
+Parma, Parma, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Parma</gpxx:City>
+          <gpxx:State>Parma</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Parma</wptx1:City>
+          <wptx1:State>Parma</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:35:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.803372537717223" lon="10.331027917563915">
+    <time>2018-06-04T11:36:00Z</time>
+    <name>Cattedrale Di Santa Maria Assunta.</name>
+    <cmt>Cattedrale Di Santa Maria Assunta</cmt>
+    <desc>Cattedrale Di Santa Maria Assunta</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:36:00Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.804689502343535" lon="10.329107120633125">
+    <time>2018-06-04T11:44:11Z</time>
+    <name>Ex Monastero Di San Paolo.</name>
+    <cmt>Ex Monastero Di San Paolo (Parma)</cmt>
+    <desc>Ex Monastero Di San Paolo (Parma)</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:44:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.804627895355225" lon="10.325882434844971">
+    <time>2018-06-04T11:40:55Z</time>
+    <name>Museo Archeologico Nazionale.</name>
+    <cmt>Museo Archeologico Nazionale (Museo)
+
+Parma, Parma, ITA
+</cmt>
+    <desc>Museo Archeologico Nazionale (Museo)
+
+Parma, Parma, ITA
+</desc>
+    <sym>Museum</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Parma</gpxx:City>
+          <gpxx:State>Parma</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Parma</wptx1:City>
+          <wptx1:State>Parma</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:40:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.801967144012451" lon="10.328114032745361">
+    <time>2018-06-04T11:36:47Z</time>
+    <name>Palazzo Del Governatore.</name>
+    <cmt>Palazzo Del Governatore (Attrazione)
+
+Parma, Parma, ITA
+</cmt>
+    <desc>Palazzo Del Governatore (Attrazione)
+
+Parma, Parma, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Parma</gpxx:City>
+          <gpxx:State>Parma</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Parma</wptx1:City>
+          <wptx1:State>Parma</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:36:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.804929979145527" lon="10.326079996302724">
+    <time>2018-06-01T11:16:49Z</time>
+    <name>Palazzo della Pilotta.</name>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-01T11:16:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.807744370773435" lon="10.322344517335296">
+    <time>2018-06-04T11:39:35Z</time>
+    <name>Palazzo Ducale.</name>
+    <cmt>Carabinieri</cmt>
+    <desc>Carabinieri</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:39:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.810085017234087" lon="10.328715015202761">
+    <time>2018-06-01T11:16:49Z</time>
+    <name>Stazione treni di Parma</name>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-01T11:16:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.804477691650391" lon="10.325796604156494">
+    <time>2018-06-04T11:36:09Z</time>
+    <name>Teatro Farnese.</name>
+    <cmt>Teatro Farnese (Attrazione)
+
+Parma, Parma, ITA
+</cmt>
+    <desc>Teatro Farnese (Attrazione)
+
+Parma, Parma, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Parma</gpxx:City>
+          <gpxx:State>Parma</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Parma</wptx1:City>
+          <wptx1:State>Parma</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:36:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.803156452253461" lon="10.327150281518698">
+    <time>2018-06-04T11:41:29Z</time>
+    <name>Teatro Regio.</name>
+    <cmt>Teatro Regio</cmt>
+    <desc>Teatro Regio</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-04T11:41:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <trk>
+    <name>PR_023_Parma centro storico</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="44.809712860733271" lon="10.328809982165694">
+        <time>2018-06-04T11:45:06Z</time>
+      </trkpt>
+      <trkpt lat="44.809177257120609" lon="10.328612755984068"/>
+      <trkpt lat="44.808582812547684" lon="10.328458193689585"/>
+      <trkpt lat="44.808550123125315" lon="10.328399855643511"/>
+      <trkpt lat="44.807398030534387" lon="10.328090647235513"/>
+      <trkpt lat="44.806573335081339" lon="10.327897360548377"/>
+      <trkpt lat="44.806407792493701" lon="10.329039730131626"/>
+      <trkpt lat="44.805953493341804" lon="10.328847113996744"/>
+      <trkpt lat="44.805633807554841" lon="10.329979425296187"/>
+      <trkpt lat="44.805530626326799" lon="10.329940784722567"/>
+      <trkpt lat="44.805677812546492" lon="10.329363523051143"/>
+      <trkpt lat="44.805187471210957" lon="10.329040819779038"/>
+      <trkpt lat="44.804822858422995" lon="10.328889358788729"/>
+      <trkpt lat="44.804070331156254" lon="10.328634213656187"/>
+      <trkpt lat="44.804135039448738" lon="10.328022502362728"/>
+      <trkpt lat="44.804049460217357" lon="10.328008169308305"/>
+      <trkpt lat="44.803784340620041" lon="10.327850673347712"/>
+      <trkpt lat="44.803637741133571" lon="10.327745648100972"/>
+      <trkpt lat="44.803339680656791" lon="10.329032856971025"/>
+      <trkpt lat="44.803315037861466" lon="10.329392189159989"/>
+      <trkpt lat="44.803191153332591" lon="10.330250412225723"/>
+      <trkpt lat="44.803239097818732" lon="10.330344876274467"/>
+      <trkpt lat="44.803225183859468" lon="10.330507233738899"/>
+      <trkpt lat="44.803127869963646" lon="10.330619132146239"/>
+      <trkpt lat="44.802973475307226" lon="10.331226820126176"/>
+      <trkpt lat="44.802903905510902" lon="10.331192705780268"/>
+      <trkpt lat="44.802339719608426" lon="10.330960024148226"/>
+      <trkpt lat="44.801665646955371" lon="10.330674117431045"/>
+      <trkpt lat="44.801791291683912" lon="10.330069698393345"/>
+      <trkpt lat="44.801707472652197" lon="10.330048156902194"/>
+      <trkpt lat="44.801962617784739" lon="10.328590963035822"/>
+      <trkpt lat="44.801766565069556" lon="10.328514352440834"/>
+      <trkpt lat="44.80170713737607" lon="10.328424330800772"/>
+      <trkpt lat="44.801769498735666" lon="10.327970199286938"/>
+      <trkpt lat="44.801804115995765" lon="10.327727794647217"/>
+      <trkpt lat="44.801911069080234" lon="10.327619416639209"/>
+      <trkpt lat="44.802039815112948" lon="10.327638695016503"/>
+      <trkpt lat="44.802202759310603" lon="10.327673563733697"/>
+      <trkpt lat="44.802327398210764" lon="10.327323032543063"/>
+      <trkpt lat="44.802495623007417" lon="10.327226305380464"/>
+      <trkpt lat="44.803339764475822" lon="10.327552445232868"/>
+      <trkpt lat="44.803548138588667" lon="10.32767808996141"/>
+      <trkpt lat="44.803830860182643" lon="10.326426168903708"/>
+      <trkpt lat="44.803916942328215" lon="10.326138501986861"/>
+      <trkpt lat="44.804411139339209" lon="10.326535888016224"/>
+      <trkpt lat="44.804665865376592" lon="10.326612163335085"/>
+      <trkpt lat="44.804933331906796" lon="10.325867598876357"/>
+      <trkpt lat="44.805183866992593" lon="10.32544213347137"/>
+      <trkpt lat="44.805204905569553" lon="10.32536736689508"/>
+      <trkpt lat="44.805246060714126" lon="10.325387232005596"/>
+      <trkpt lat="44.805324682965875" lon="10.325157148763537"/>
+      <trkpt lat="44.805332729592919" lon="10.325074419379234"/>
+      <trkpt lat="44.805260142311454" lon="10.325029157102108"/>
+      <trkpt lat="44.805620815604925" lon="10.324084935709834"/>
+      <trkpt lat="44.805924743413925" lon="10.323130404576659"/>
+      <trkpt lat="44.806142589077353" lon="10.322788842022419"/>
+      <trkpt lat="44.80642824433744" lon="10.3226931206882"/>
+      <trkpt lat="44.807463157922029" lon="10.322403609752655"/>
+      <trkpt lat="44.807331562042236" lon="10.321616381406784"/>
+      <trkpt lat="44.807502636685967" lon="10.321459136903286"/>
+      <trkpt lat="44.807330304756761" lon="10.319621907547116"/>
+      <trkpt lat="44.807334495708346" lon="10.319448066875339"/>
+      <trkpt lat="44.807204492390156" lon="10.317867239937186"/>
+      <trkpt lat="44.807179514318705" lon="10.317756347358227"/>
+      <trkpt lat="44.807071639224887" lon="10.316552203148603"/>
+      <trkpt lat="44.806901318952441" lon="10.31654859893024"/>
+      <trkpt lat="44.806825211271644" lon="10.316303763538599"/>
+      <trkpt lat="44.806732842698693" lon="10.316157164052129"/>
+      <trkpt lat="44.806594289839268" lon="10.316045014187694"/>
+      <trkpt lat="44.806400248780847" lon="10.315956333652139"/>
+      <trkpt lat="44.805864645168185" lon="10.315841250121593"/>
+      <trkpt lat="44.805700862780213" lon="10.315818786621094"/>
+      <trkpt lat="44.80552677065134" lon="10.315907383337617"/>
+      <trkpt lat="44.805417554453015" lon="10.316038057208061"/>
+      <trkpt lat="44.805325856432319" lon="10.316170239821076"/>
+      <trkpt lat="44.805266512557864" lon="10.316344164311886"/>
+      <trkpt lat="44.805242707952857" lon="10.3164626006037"/>
+      <trkpt lat="44.805266177281737" lon="10.31660626642406"/>
+      <trkpt lat="44.805350499227643" lon="10.316860070452094"/>
+      <trkpt lat="44.805442113429308" lon="10.317025361582637"/>
+      <trkpt lat="44.8056151997298" lon="10.317175649106503"/>
+      <trkpt lat="44.805829357355833" lon="10.317223090678453"/>
+      <trkpt lat="44.80608718469739" lon="10.317176571115851"/>
+      <trkpt lat="44.806108055636287" lon="10.317496340721846"/>
+      <trkpt lat="44.806128004565835" lon="10.318840211257339"/>
+      <trkpt lat="44.806150551885366" lon="10.320639219135046"/>
+      <trkpt lat="44.80615122243762" lon="10.322755398228765"/>
+      <trkpt lat="44.806118449196219" lon="10.322792530059814"/>
+      <trkpt lat="44.805903704836965" lon="10.323109701275826"/>
+      <trkpt lat="44.805601956322789" lon="10.324078062549233"/>
+      <trkpt lat="44.805236170068383" lon="10.325034437701106"/>
+      <trkpt lat="44.807598693296313" lon="10.3258550260216"/>
+      <trkpt lat="44.807745292782784" lon="10.325855193659663"/>
+      <trkpt lat="44.808597564697266" lon="10.326085276901722"/>
+      <trkpt lat="44.808860924094915" lon="10.326085025444627"/>
+      <trkpt lat="44.808845920488238" lon="10.326390797272325"/>
+      <trkpt lat="44.808857487514615" lon="10.326483082026243"/>
+      <trkpt lat="44.808734441176057" lon="10.327174589037895"/>
+      <trkpt lat="44.808891350403428" lon="10.327240219339728"/>
+      <trkpt lat="44.809050774201751" lon="10.327534340322018"/>
+      <trkpt lat="44.809859627857804" lon="10.327966846525669"/>
+    </trkseg>
+  </trk>
+
+</gpx>

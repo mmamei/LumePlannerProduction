@@ -1,0 +1,854 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1" creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2018-06-11T14:26:14Z</time>
+    <bounds maxlat="44.654379095882177" maxlon="10.936908926814795" minlat="44.640910467132926" minlon="10.920816427096725"/>
+  </metadata>
+
+  <wpt lat="44.647536277770996" lon="10.928134918212891">
+    <time>2018-05-21T19:58:37Z</time>
+    <name>Chiesa di San Giorgio</name>
+    <cmt>San Giorgio (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>San Giorgio (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Waypoint</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:58:37Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.646433806046844" lon="10.925288004800677">
+    <time>2018-05-21T19:55:57Z</time>
+    <name>Duomo Di Modena.</name>
+    <cmt>Duomo Di Modena</cmt>
+    <desc>Duomo Di Modena</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:55:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.643716812133789" lon="10.932211875915527">
+    <time>2018-05-21T19:52:52Z</time>
+    <name>Fontana Dei Due Fiumi.</name>
+    <cmt>Fontana Dei Due Fiumi (Opera D'arte)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>Fontana Dei Due Fiumi (Opera D'arte)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:52:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.646399021148682" lon="10.925924777984619">
+    <time>2018-05-21T19:56:06Z</time>
+    <name>Ghirlandina.</name>
+    <cmt>Ghirlandina (Attrazione)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>Ghirlandina (Attrazione)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:56:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.645059676840901" lon="10.925779268145561">
+    <time>2018-05-21T19:55:35Z</time>
+    <name>Mercato Coperto Albinelli.</name>
+    <cmt>Mercato Coperto Albinelli (Attrazione)
+Via Luigi Albinelli 13
+Modena, Modena, 41100, ITA
+</cmt>
+    <desc>Mercato Coperto Albinelli (Attrazione)
+Via Luigi Albinelli 13
+Modena, Modena, 41100, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:StreetAddress>Via Luigi Albinelli 13</gpxx:StreetAddress>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+          <gpxx:PostalCode>41100</gpxx:PostalCode>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:StreetAddress>Via Luigi Albinelli 13</wptx1:StreetAddress>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+          <wptx1:PostalCode>41100</wptx1:PostalCode>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:55:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.652030654251575" lon="10.936908926814795">
+    <time>2018-05-21T17:50:58Z</time>
+    <name>Museo Casa Enzo Ferrari - Mef Modena.</name>
+    <cmt>Museo Casa Enzo Ferrari - Mef Modena</cmt>
+    <desc>Museo Casa Enzo Ferrari - Mef Modena</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T17:50:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.649703502655029" lon="10.933499336242676">
+    <time>2018-05-21T19:51:12Z</time>
+    <name>Palazzina Dei Giardini Pubblici Vigarani.</name>
+    <cmt>Palazzina Dei Giardini Pubblici Vigarani (Attrazione)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>Palazzina Dei Giardini Pubblici Vigarani (Attrazione)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:51:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.648325517773628" lon="10.920816427096725">
+    <ele>39.928800000000003</ele>
+    <time>2018-05-21T19:57:45Z</time>
+    <name>Palazzo dei Musei.</name>
+    <cmt>40 m altezza</cmt>
+    <desc>40 m altezza</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:57:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.648416545242071" lon="10.929051144048572">
+    <time>2018-05-21T19:51:49Z</time>
+    <name>Palazzo Ducale-Accademia</name>
+    <cmt>Palazzo Ducale</cmt>
+    <desc>Palazzo Ducale</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:51:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.644789695739746" lon="10.930237770080566">
+    <time>2018-05-21T19:52:25Z</time>
+    <name>San Biagio Nel Carmine.</name>
+    <cmt>San Biagio Nel Carmine (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>San Biagio Nel Carmine (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:52:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.645297639071941" lon="10.927328914403915">
+    <time>2018-05-21T19:54:32Z</time>
+    <name>San Carlo.</name>
+    <cmt>
+San Carlo</cmt>
+    <desc>
+San Carlo</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:54:32Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.649049546569586" lon="10.927862506359816">
+    <time>2018-05-21T19:52:05Z</time>
+    <name>San Domenico.</name>
+    <cmt>San Domenico</cmt>
+    <desc>San Domenico</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:52:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.64211612008512" lon="10.927516501396894">
+    <time>2018-05-21T19:53:25Z</time>
+    <name>San Pietro.</name>
+    <cmt>San Pietro</cmt>
+    <desc>San Pietro</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:53:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.64589811861515" lon="10.929327998310328">
+    <time>2018-05-21T19:16:17Z</time>
+    <name>San Vincenzo.</name>
+    <cmt>San Vincenzo</cmt>
+    <desc>San Vincenzo</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:16:17Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.648044556379318" lon="10.921536097303033">
+    <time>2018-05-21T19:56:46Z</time>
+    <name>Sant'agostino.</name>
+    <cmt>Sant'agostino</cmt>
+    <desc>Sant'agostino</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:56:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.646892547607422" lon="10.923843383789062">
+    <time>2018-05-21T19:56:26Z</time>
+    <name>Sant'eufemia.</name>
+    <cmt>Sant'eufemia (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>Sant'eufemia (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:56:26Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.643394947052002" lon="10.927855968475342">
+    <time>2018-05-21T19:53:33Z</time>
+    <name>Santa Maria Delle Assi</name>
+    <cmt>Santa Maria Delle Asse (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>Santa Maria Delle Asse (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:53:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.649102687835693" lon="10.924530029296875">
+    <time>2018-05-21T19:58:11Z</time>
+    <name>Santa Maria Pomposa.</name>
+    <cmt>Santa Maria Pomposa (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</cmt>
+    <desc>Santa Maria Pomposa (Chiesa, Luogo Di Culto)
+
+Modena, Modena, ITA
+</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber/>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+        </wptx1:Address>
+        <wptx1:PhoneNumber/>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:58:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.654379095882177" lon="10.930737666785717">
+    <time>2018-05-21T16:27:29Z</time>
+    <name>Stazione treni di Modena</name>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T16:27:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.646871089935303" lon="10.930087566375732">
+    <time>2018-05-21T19:15:07Z</time>
+    <name>Teatro Comunale Luciano Pavarotti.</name>
+    <cmt>Teatro Comunale Luciano Pavarotti (Teatro)
+Via Del Teatro 8
+Modena, Modena, 41121, ITA
++39 059 2033020</cmt>
+    <desc>Teatro Comunale Luciano Pavarotti (Teatro)
+Via Del Teatro 8
+Modena, Modena, 41121, ITA
++39 059 2033020</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:StreetAddress>Via Del Teatro 8</gpxx:StreetAddress>
+          <gpxx:City>Modena</gpxx:City>
+          <gpxx:State>Modena</gpxx:State>
+          <gpxx:Country>ITA</gpxx:Country>
+          <gpxx:PostalCode>41121</gpxx:PostalCode>
+        </gpxx:Address>
+        <gpxx:PhoneNumber>+39 059 2033020</gpxx:PhoneNumber>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:StreetAddress>Via Del Teatro 8</wptx1:StreetAddress>
+          <wptx1:City>Modena</wptx1:City>
+          <wptx1:State>Modena</wptx1:State>
+          <wptx1:Country>ITA</wptx1:Country>
+          <wptx1:PostalCode>41121</wptx1:PostalCode>
+        </wptx1:Address>
+        <wptx1:PhoneNumber>+39 059 2033020</wptx1:PhoneNumber>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:15:07Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.643703820183873" lon="10.931247035041451">
+    <time>2018-05-21T19:53:03Z</time>
+    <name>Teatro Storchi.</name>
+    <cmt>Teatro Storchi</cmt>
+    <desc>Teatro Storchi</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-05-21T19:53:03Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <trk>
+    <name>MO_042_Modena centro storico</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="44.654208607971668" lon="10.930765829980373">
+        <time>2018-05-21T17:53:20Z</time>
+      </trkpt>
+      <trkpt lat="44.65415932238102" lon="10.930840596556664"/>
+      <trkpt lat="44.654124286025763" lon="10.931076295673847"/>
+      <trkpt lat="44.654024122282863" lon="10.931210657581687"/>
+      <trkpt lat="44.653877941891551" lon="10.932047674432397"/>
+      <trkpt lat="44.653239073231816" lon="10.932665839791298"/>
+      <trkpt lat="44.65289918705821" lon="10.933070769533515"/>
+      <trkpt lat="44.652840178459883" lon="10.933160288259387"/>
+      <trkpt lat="44.653393132612109" lon="10.933803096413612"/>
+      <trkpt lat="44.653537888079882" lon="10.933931171894073"/>
+      <trkpt lat="44.653566470369697" lon="10.934020942077041"/>
+      <trkpt lat="44.653496984392405" lon="10.93415723182261"/>
+      <trkpt lat="44.653498576954007" lon="10.93415723182261"/>
+      <trkpt lat="44.653410315513611" lon="10.934203583747149"/>
+      <trkpt lat="44.652711264789104" lon="10.933409901335835"/>
+      <trkpt lat="44.652712857350707" lon="10.933409901335835"/>
+      <trkpt lat="44.652682766318321" lon="10.93348341062665"/>
+      <trkpt lat="44.652714030817151" lon="10.933542838320136"/>
+      <trkpt lat="44.65212226845324" lon="10.934488149359822"/>
+      <trkpt lat="44.65212075971067" lon="10.934492172673345"/>
+      <trkpt lat="44.652106761932373" lon="10.934543302282691"/>
+      <trkpt lat="44.652105420827866" lon="10.934543889015913"/>
+      <trkpt lat="44.652066947892308" lon="10.93463365919888"/>
+      <trkpt lat="44.65206652879715" lon="10.93463365919888"/>
+      <trkpt lat="44.652042305096984" lon="10.934639945626259"/>
+      <trkpt lat="44.651727983728051" lon="10.935116959735751"/>
+      <trkpt lat="44.651727983728051" lon="10.935117546468973"/>
+      <trkpt lat="44.651467222720385" lon="10.935560194775462"/>
+      <trkpt lat="44.651880702003837" lon="10.935825230553746"/>
+      <trkpt lat="44.651876762509346" lon="10.935835707932711"/>
+      <trkpt lat="44.651462696492672" lon="10.935570085421205"/>
+      <trkpt lat="44.651426989585161" lon="10.935640577226877"/>
+      <trkpt lat="44.651076206937432" lon="10.936203170567751"/>
+      <trkpt lat="44.651015354320407" lon="10.936137875542045"/>
+      <trkpt lat="44.651009319350123" lon="10.936152962967753"/>
+      <trkpt lat="44.650888200849295" lon="10.936215911060572"/>
+      <trkpt lat="44.650626517832279" lon="10.93588700518012"/>
+      <trkpt lat="44.650021260604262" lon="10.936847319826484"/>
+      <trkpt lat="44.650021260604262" lon="10.936846397817135"/>
+      <trkpt lat="44.649989157915115" lon="10.936825443059206"/>
+      <trkpt lat="44.649922605603933" lon="10.936819911003113"/>
+      <trkpt lat="44.649798050522804" lon="10.936706252396107"/>
+      <trkpt lat="44.649720434099436" lon="10.936621678993106"/>
+      <trkpt lat="44.649481046944857" lon="10.936334431171417"/>
+      <trkpt lat="44.648743439465761" lon="10.935681313276291"/>
+      <trkpt lat="44.648708486929536" lon="10.935578718781471"/>
+      <trkpt lat="44.648550655692816" lon="10.935450978577137"/>
+      <trkpt lat="44.64874092489481" lon="10.935391215607524"/>
+      <trkpt lat="44.649040242657065" lon="10.93474748544395"/>
+      <trkpt lat="44.649147531017661" lon="10.934793669730425"/>
+      <trkpt lat="44.649232188239694" lon="10.934721166267991"/>
+      <trkpt lat="44.649232774972916" lon="10.934721166267991"/>
+      <trkpt lat="44.649459421634674" lon="10.934625277295709"/>
+      <trkpt lat="44.649790925905108" lon="10.934399217367172"/>
+      <trkpt lat="44.650024864822626" lon="10.934233674779534"/>
+      <trkpt lat="44.64998840354383" lon="10.934166368097067"/>
+      <trkpt lat="44.64998840354383" lon="10.93416552990675"/>
+      <trkpt lat="44.649944482371211" lon="10.934043573215604"/>
+      <trkpt lat="44.649919085204601" lon="10.934001496061683"/>
+      <trkpt lat="44.650029055774212" lon="10.93391097150743"/>
+      <trkpt lat="44.649967281147838" lon="10.933781135827303"/>
+      <trkpt lat="44.64997909963131" lon="10.933553902432323"/>
+      <trkpt lat="44.650069288909435" lon="10.933284508064389"/>
+      <trkpt lat="44.649753123521805" lon="10.932992566376925"/>
+      <trkpt lat="44.649646421894431" lon="10.933174202218652"/>
+      <trkpt lat="44.649626053869724" lon="10.933160120621324"/>
+      <trkpt lat="44.649562686681747" lon="10.933159030973911"/>
+      <trkpt lat="44.649483310058713" lon="10.933234887197614"/>
+      <trkpt lat="44.64940644800663" lon="10.933176297694445"/>
+      <trkpt lat="44.649064131081104" lon="10.932832304388285"/>
+      <trkpt lat="44.648869084194303" lon="10.932616721838713"/>
+      <trkpt lat="44.648529617115855" lon="10.932283708825707"/>
+      <trkpt lat="44.647495541721582" lon="10.931202862411737"/>
+      <trkpt lat="44.647789746522903" lon="10.930325612425804"/>
+      <trkpt lat="44.64791614562273" lon="10.930006932467222"/>
+      <trkpt lat="44.647941207513213" lon="10.92981724999845"/>
+      <trkpt lat="44.64825376868248" lon="10.928894402459264"/>
+      <trkpt lat="44.647556226700544" lon="10.92846030369401"/>
+      <trkpt lat="44.647321784868836" lon="10.929490607231855"/>
+      <trkpt lat="44.647212903946638" lon="10.929833427071571"/>
+      <trkpt lat="44.647083403542638" lon="10.930214133113623"/>
+      <trkpt lat="44.646928589791059" lon="10.930606406182051"/>
+      <trkpt lat="44.646551655605435" lon="10.930255958810449"/>
+      <trkpt lat="44.645213233307004" lon="10.929071512073278"/>
+      <trkpt lat="44.645200073719025" lon="10.929060112684965"/>
+      <trkpt lat="44.645045846700668" lon="10.929423552006483"/>
+      <trkpt lat="44.644790617749095" lon="10.929965358227491"/>
+      <trkpt lat="44.644791875034571" lon="10.929964436218143"/>
+      <trkpt lat="44.644386945292354" lon="10.930839255452156"/>
+      <trkpt lat="44.644469087943435" lon="10.930910501629114"/>
+      <trkpt lat="44.64443170465529" lon="10.931021478027105"/>
+      <trkpt lat="44.644407229498029" lon="10.931170424446464"/>
+      <trkpt lat="44.64438384398818" lon="10.931206801906228"/>
+      <trkpt lat="44.64408477768302" lon="10.931932674720883"/>
+      <trkpt lat="44.643992492929101" lon="10.931846844032407"/>
+      <trkpt lat="44.643991906195879" lon="10.931845922023058"/>
+      <trkpt lat="44.64391965419054" lon="10.931811640039086"/>
+      <trkpt lat="44.643920324742794" lon="10.931811640039086"/>
+      <trkpt lat="44.643833236768842" lon="10.93172337859869"/>
+      <trkpt lat="44.643776323646307" lon="10.931707117706537"/>
+      <trkpt lat="44.643776994198561" lon="10.931707117706537"/>
+      <trkpt lat="44.643717315047979" lon="10.93165984377265"/>
+      <trkpt lat="44.643244072794914" lon="10.931249633431435"/>
+      <trkpt lat="44.643523022532463" lon="10.930563742294908"/>
+      <trkpt lat="44.643065370619297" lon="10.930231902748346"/>
+      <trkpt lat="44.643011139705777" lon="10.930173397064209"/>
+      <trkpt lat="44.642546279355884" lon="10.929839042946696"/>
+      <trkpt lat="44.642472937703133" lon="10.929761761799455"/>
+      <trkpt lat="44.642024924978614" lon="10.92947225086391"/>
+      <trkpt lat="44.641987038776278" lon="10.929446266964078"/>
+      <trkpt lat="44.641941105946898" lon="10.92938331887126"/>
+      <trkpt lat="44.641925431787968" lon="10.92935155145824"/>
+      <trkpt lat="44.641891401261091" lon="10.92935599386692"/>
+      <trkpt lat="44.641831051558256" lon="10.929336715489626"/>
+      <trkpt lat="44.64183172211051" lon="10.929336715489626"/>
+      <trkpt lat="44.641780592501163" lon="10.929322214797139"/>
+      <trkpt lat="44.641338111832738" lon="10.928930528461933"/>
+      <trkpt lat="44.641336854547262" lon="10.928930528461933"/>
+      <trkpt lat="44.641125379130244" lon="10.928571531549096"/>
+      <trkpt lat="44.640995627269149" lon="10.928182359784842"/>
+      <trkpt lat="44.640956148505211" lon="10.927956970408559"/>
+      <trkpt lat="44.640910467132926" lon="10.927583975717425"/>
+      <trkpt lat="44.64091113768518" lon="10.927583053708076"/>
+      <trkpt lat="44.640926392748952" lon="10.92731885612011"/>
+      <trkpt lat="44.640928488224745" lon="10.92731692828238"/>
+      <trkpt lat="44.640969475731254" lon="10.927062788978219"/>
+      <trkpt lat="44.640970146283507" lon="10.927062788978219"/>
+      <trkpt lat="44.641137449070811" lon="10.92640514485538"/>
+      <trkpt lat="44.641403406858444" lon="10.925710704177618"/>
+      <trkpt lat="44.641465600579977" lon="10.925734676420689"/>
+      <trkpt lat="44.641552520915866" lon="10.925795780494809"/>
+      <trkpt lat="44.641660396009684" lon="10.925861494615674"/>
+      <trkpt lat="44.641679506748915" lon="10.925764599815011"/>
+      <trkpt lat="44.642089800909162" lon="10.925967190414667"/>
+      <trkpt lat="44.642329188063741" lon="10.926124937832355"/>
+      <trkpt lat="44.642792958766222" lon="10.926421573385596"/>
+      <trkpt lat="44.643261255696416" lon="10.926617290824652"/>
+      <trkpt lat="44.643050115555525" lon="10.927088437601924"/>
+      <trkpt lat="44.643487902358174" lon="10.927565200254321"/>
+      <trkpt lat="44.644712163135409" lon="10.928617045283318"/>
+      <trkpt lat="44.645196804776788" lon="10.927111990749836"/>
+      <trkpt lat="44.645344661548734" lon="10.926723321899772"/>
+      <trkpt lat="44.645066047087312" lon="10.926528526470065"/>
+      <trkpt lat="44.645268637686968" lon="10.926003819331527"/>
+      <trkpt lat="44.645442897453904" lon="10.925603499636054"/>
+      <trkpt lat="44.645951930433512" lon="10.925877839326859"/>
+      <trkpt lat="44.646268850192428" lon="10.926016308367252"/>
+      <trkpt lat="44.646338671445847" lon="10.925835594534874"/>
+      <trkpt lat="44.646444283425808" lon="10.925581036135554"/>
+      <trkpt lat="44.646563390269876" lon="10.92527199536562"/>
+      <trkpt lat="44.646603791043162" lon="10.925143668428063"/>
+      <trkpt lat="44.64646297506988" lon="10.925066638737917"/>
+      <trkpt lat="44.646540507674217" lon="10.924792801961303"/>
+      <trkpt lat="44.646705212071538" lon="10.924438163638115"/>
+      <trkpt lat="44.647044595330954" lon="10.923848748207092"/>
+      <trkpt lat="44.647014336660504" lon="10.923808766528964"/>
+      <trkpt lat="44.647144172340631" lon="10.923247765749693"/>
+      <trkpt lat="44.6473288256675" lon="10.92260998673737"/>
+      <trkpt lat="44.6473288256675" lon="10.92260705307126"/>
+      <trkpt lat="44.64746218174696" lon="10.922217043116689"/>
+      <trkpt lat="44.647476933896542" lon="10.922130374237895"/>
+      <trkpt lat="44.647684302181005" lon="10.921535259112716"/>
+      <trkpt lat="44.648330463096499" lon="10.92189853079617"/>
+      <trkpt lat="44.648178331553936" lon="10.922380825504661"/>
+      <trkpt lat="44.648179421201348" lon="10.92237931676209"/>
+      <trkpt lat="44.648103145882487" lon="10.922561539337039"/>
+      <trkpt lat="44.648103145882487" lon="10.922560030594468"/>
+      <trkpt lat="44.648052854463458" lon="10.922724818810821"/>
+      <trkpt lat="44.648914933204651" lon="10.923571307212114"/>
+      <trkpt lat="44.649174436926842" lon="10.923900380730629"/>
+      <trkpt lat="44.64932581409812" lon="10.92442961409688"/>
+      <trkpt lat="44.64939571917057" lon="10.924672689288855"/>
+      <trkpt lat="44.649394629523158" lon="10.924674114212394"/>
+      <trkpt lat="44.64939278550446" lon="10.924786347895861"/>
+      <trkpt lat="44.649354564025998" lon="10.924863377586007"/>
+      <trkpt lat="44.649305613711476" lon="10.924876620993018"/>
+      <trkpt lat="44.649246940389276" lon="10.924858599901199"/>
+      <trkpt lat="44.649194553494453" lon="10.924815181642771"/>
+      <trkpt lat="44.648947454988956" lon="10.924511253833771"/>
+      <trkpt lat="44.648768668994308" lon="10.924814343452454"/>
+      <trkpt lat="44.648573454469442" lon="10.925262942910194"/>
+      <trkpt lat="44.648447055369616" lon="10.925599811598659"/>
+      <trkpt lat="44.648448145017028" lon="10.925599811598659"/>
+      <trkpt lat="44.648341108113527" lon="10.925939446315169"/>
+      <trkpt lat="44.648388968780637" lon="10.92604748904705"/>
+      <trkpt lat="44.648332390934229" lon="10.926396930590272"/>
+      <trkpt lat="44.64821713976562" lon="10.926740169525146"/>
+      <trkpt lat="44.648081017658114" lon="10.92708189971745"/>
+      <trkpt lat="44.647950762882829" lon="10.927364369854331"/>
+      <trkpt lat="44.647717997431755" lon="10.927892681211233"/>
+      <trkpt lat="44.647707771509886" lon="10.927976751700044"/>
+      <trkpt lat="44.647579528391361" lon="10.928361983969808"/>
+      <trkpt lat="44.648002227768302" lon="10.928598688915372"/>
+      <trkpt lat="44.64800113812089" lon="10.928600197657943"/>
+      <trkpt lat="44.648388549685478" lon="10.928205996751785"/>
+      <trkpt lat="44.648559205234051" lon="10.928108766674995"/>
+      <trkpt lat="44.648588709533215" lon="10.928054032847285"/>
+      <trkpt lat="44.648666912689805" lon="10.928075825795531"/>
+      <trkpt lat="44.648951562121511" lon="10.92842266894877"/>
+      <trkpt lat="44.649690678343177" lon="10.928974198177457"/>
+      <trkpt lat="44.64945875108242" lon="10.929540479555726"/>
+      <trkpt lat="44.649432431906462" lon="10.929615162312984"/>
+      <trkpt lat="44.650204740464687" lon="10.930134085938334"/>
+      <trkpt lat="44.6502058301121" lon="10.930135510861874"/>
+      <trkpt lat="44.650489976629615" lon="10.930367354303598"/>
+      <trkpt lat="44.650768088176847" lon="10.93061663210392"/>
+      <trkpt lat="44.650914687663317" lon="10.930791310966015"/>
+      <trkpt lat="44.651548778638244" lon="10.931543922051787"/>
+      <trkpt lat="44.651546599343419" lon="10.931543922051787"/>
+      <trkpt lat="44.651825129985809" lon="10.931912306696177"/>
+      <trkpt lat="44.652093518525362" lon="10.93221690505743"/>
+      <trkpt lat="44.652188317850232" lon="10.931988246738911"/>
+      <trkpt lat="44.652748396620154" lon="10.93151475302875"/>
+      <trkpt lat="44.652906060218811" lon="10.931337224319577"/>
+      <trkpt lat="44.652916621416807" lon="10.930432984605432"/>
+      <trkpt lat="44.652993734925985" lon="10.93047003261745"/>
+      <trkpt lat="44.653080068528652" lon="10.93049836345017"/>
+      <trkpt lat="44.653153577819467" lon="10.930468356236815"/>
+      <trkpt lat="44.654163345694542" lon="10.930755184963346"/>
+      <trkpt lat="44.654160076752305" lon="10.930755184963346"/>
+    </trkseg>
+  </trk>
+
+</gpx>
