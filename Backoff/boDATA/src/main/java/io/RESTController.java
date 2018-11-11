@@ -57,7 +57,7 @@ public class RESTController
     this.properties = new Config();
     this.destinazioni = City.getInstance(this.properties.getProperty("cities"));
     
-    updateCity(new City("prova", "prova", "prova", new double[] { 12.0D, 45.0D, 11.0D, 44.0D }));
+    //updateCity(new City("prova", "prova", "prova", new double[] { 12.0D, 45.0D, 11.0D, 44.0D }));
   }
   
   @RequestMapping(value={"signin"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.POST})
@@ -65,7 +65,7 @@ public class RESTController
   {
     try
     {
-      this.logger.info("INFO:" + hasheduser);
+      //this.logger.info("INFO:" + hasheduser);
       byte[] bytesOfMessage = (this.properties.getProperty("user") + this.properties.getProperty("pass")).getBytes(StandardCharsets.UTF_8);
       MessageDigest md = MessageDigest.getInstance("MD5");
       byte[] thedigest = md.digest(bytesOfMessage);
@@ -73,7 +73,7 @@ public class RESTController
       for (byte b : thedigest) {
         sb.append(String.format("%02x", new Object[] { Byte.valueOf(b) }));
       }
-      this.logger.info("COMPARE:" + sb.toString());
+      //this.logger.info("COMPARE:" + sb.toString());
       return sb.toString().equals(hasheduser);
     }
     catch (Exception e)
