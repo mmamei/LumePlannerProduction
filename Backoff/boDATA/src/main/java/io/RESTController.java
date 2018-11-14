@@ -224,7 +224,15 @@ public class RESTController
     }
     return true;
   }
-  
+
+  @RequestMapping(value={"removeactivity"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.POST})
+  @ResponseBody
+  public boolean removeActivity(@RequestParam String activityName, @RequestParam String cityName)
+  {
+    return this.dao.deleteActivity(cityName, activityName);
+  }
+
+
   @RequestMapping(value={"itineraries"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.GET})
   @ResponseBody
   public List<Itinerary> sendItineraries(@RequestParam(value="city", defaultValue="unknown") String city)

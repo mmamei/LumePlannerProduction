@@ -125,6 +125,24 @@ public class Mongo
     }
     return false;
   }
+
+  public boolean deleteActivity(String city, String activity)
+  {
+    try
+    {
+      if (this.db.getCollection(city + "activities").find(new Document("place_id", activity)).first() != null)
+      {
+        this.db.getCollection(city + "activities").findOneAndDelete(new Document("place_id", activity));
+        return true;
+      }
+    }
+    catch (Exception e)
+    {
+      this.logger.info(e.getMessage());
+      return false;
+    }
+    return false;
+  }
   
   public void insertItinerary(String city, Itinerary itinerary)
   {
