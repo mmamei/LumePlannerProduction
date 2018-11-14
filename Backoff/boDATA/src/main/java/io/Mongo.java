@@ -195,6 +195,7 @@ public class Mongo
 
       e.printStackTrace();
     }
+    this.logger.info(result.size()+" activities retrieved for "+city);
     return result;
   }
   

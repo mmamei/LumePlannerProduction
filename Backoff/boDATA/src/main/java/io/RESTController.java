@@ -182,6 +182,7 @@ public class RESTController
   @ResponseBody
   public List<POI> sendActivities(@RequestParam(value="city", defaultValue="unknown") String city)
   {
+    logger.info("Requested activities for city "+city);
     return this.dao.retrieveActivities(city);
   }
   
