@@ -1,9 +1,11 @@
 package model;
 
+import java.io.Serializable;
+
 /**
  * Created by andrea on 19/11/18.
  */
-public class POICity {
+public class POICity implements Serializable {
 
     POI poi;
     String city;
@@ -13,10 +15,7 @@ public class POICity {
         this.city = city;
     }
 
-    public POICity() {
-        this.poi = new POI();
-        this.city = "";
-    }
+    public POICity() {}
 
     public POI getPoi() {
         return poi;

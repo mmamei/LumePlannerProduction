@@ -217,6 +217,7 @@ public class RESTController
   public boolean insertPoi(@RequestBody POICity poicity)
   {
     ObjectMapper mapper = new ObjectMapper();
+    mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     try
     {
       mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), poicity.getPoi());
