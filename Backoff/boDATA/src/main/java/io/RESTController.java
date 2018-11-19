@@ -214,13 +214,13 @@ public class RESTController
   
   @RequestMapping(value={"addPoi"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.POST})
   @ResponseBody
-  public boolean insertPoi(@RequestParam("poi") POI poi, @RequestParam("city") String city)
+  public boolean insertPoi(@RequestBody POICity poicity)
   {
     ObjectMapper mapper = new ObjectMapper();
     try
     {
-      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + city + "/pois/" + poi.getPlace_id() + ".json"), poi);
-      SavePOIs2DB.run(this.logger, city, this.dao, this.properties.getProperty("citiesPath") + city + "/pois/");
+      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), poicity.getPoi());
+      SavePOIs2DB.run(this.logger, poicity.getCity(), this.dao, this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/");
     }
     catch (Exception e)
     {
