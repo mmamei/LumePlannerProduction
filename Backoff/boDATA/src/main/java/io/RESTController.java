@@ -10,6 +10,8 @@ import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import com.fasterxml.jackson.databind.SerializationFeature;
 import model.City;
 import model.Itinerary;
 import model.POI;
@@ -219,6 +221,7 @@ public class RESTController
   {
     ObjectMapper mapper = new ObjectMapper();
     mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     try
     {
       JSONArray array = new JSONArray();
