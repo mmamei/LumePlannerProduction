@@ -16,6 +16,7 @@ import model.POI;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.log4j.Logger;
+import org.json.JSONArray;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -220,7 +221,9 @@ public class RESTController
     mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     try
     {
-      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), poicity.getPoi());
+      JSONArray array = new JSONArray();
+      array.put(poicity.getPoi());
+      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), array);
       SavePOIs2DB.run(this.logger, poicity.getCity(), this.dao, this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/");
     }
     catch (Exception e)
