@@ -164,10 +164,15 @@ public class RESTController
         FileUtils.writeByteArrayToFile(new File(this.properties.getProperty("cityImagePath") + fileName), file.getBytes());
         tracelog.info("Picture " + fileName + " has been uploaded: " + this.properties.getProperty("cityImagePath") + fileName);
       }
-      else
+      else if (type.equals("poi"))
       {
         FileUtils.writeByteArrayToFile(new File(this.properties.getProperty("poiImagePath") + fileName), file.getBytes());
         tracelog.info("Picture " + fileName + " has been uploaded: " + this.properties.getProperty("poiImagePath") + fileName);
+      }
+      else
+      {
+        FileUtils.writeByteArrayToFile(new File(this.properties.getProperty("itinerariesImagePath") + fileName), file.getBytes());
+        tracelog.info("Picture " + fileName + " has been uploaded: " + this.properties.getProperty("itinerariesImagePath") + fileName);
       }
     }
     catch (IOException e)
@@ -209,7 +214,7 @@ public class RESTController
   
   @RequestMapping(value={"addPoi"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.POST})
   @ResponseBody
-  public boolean insertPoi(@RequestBody POI poi, @RequestParam String city)
+  public boolean insertPoi(@RequestParam("poi") POI poi, @RequestParam("city") String city)
   {
     ObjectMapper mapper = new ObjectMapper();
     try
