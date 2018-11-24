@@ -226,7 +226,8 @@ public class RESTController
     {
       JSONArray array = new JSONArray();
       array.put(poicity.getPoi());
-      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), array);
+      tracelog.info("Write POI:"+array.toString());
+      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), array.toString());
       SavePOIs2DB.run(this.logger, poicity.getCity(), this.dao, this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/");
     }
     catch (Exception e)
