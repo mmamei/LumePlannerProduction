@@ -224,6 +224,7 @@ public class RESTController
     mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     try
     {
+      tracelog.info("name:"+poicity.getPoi().getDisplay_name()+" place:"+poicity.getPoi().getGeometry().getCoordinates());
       JSONArray array = new JSONArray();
       array.put(new JSONObject(poicity.getPoi()));
       tracelog.info("Write POI(obj):"+new JSONObject(poicity.getPoi()).toString());
