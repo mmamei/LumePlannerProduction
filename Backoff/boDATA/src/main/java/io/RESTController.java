@@ -114,6 +114,8 @@ public class RESTController
       this.destinazioni.add(city);
       mapper.writeValue(new File(this.properties.getProperty("cities")), this.destinazioni);
       tracelog.info("New city " + city.getName() + " has been added");
+      //DITA needs a reload
+      Process p = Runtime.getRuntime().exec(new String[]{"bash","-c","touch /root/tomcat_webapps/DITA/WEB-INF/web.xml"});
       boolean success = new File(this.properties.getProperty("citiesPath") + city.getName() + "/pois").mkdirs();
       if (!success) {
         return false;
@@ -122,8 +124,6 @@ public class RESTController
       if (!success) {
         return false;
       }
-      //DITA needs a reload
-      Process p = Runtime.getRuntime().exec(new String[]{"bash","-c","touch /root/tomcat_webapps/DITA/WEB-INF/web.xml"});
       return true;
     }
     catch (IOException e)
