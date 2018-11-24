@@ -226,6 +226,7 @@ public class RESTController
     {
       JSONArray array = new JSONArray();
       array.put(new JSONObject(poicity.getPoi()));
+      tracelog.info("Write POI(obj):"+new JSONObject(poicity.getPoi()).toString());
       tracelog.info("Write POI(string):"+array.toString());
       tracelog.info("Write POI:"+array);
       mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), array);
