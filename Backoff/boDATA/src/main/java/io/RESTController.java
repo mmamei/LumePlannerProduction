@@ -217,21 +217,24 @@ public class RESTController
   
   @RequestMapping(value={"addPoi"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.POST})
   @ResponseBody
-  public boolean insertPoi(@RequestBody POICity poicity)
+  public boolean insertPoi(@RequestBody JSONObject poicity)
   {
     ObjectMapper mapper = new ObjectMapper();
     mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     try
     {
-      tracelog.info("name:"+poicity.getPoi().getDisplay_name()+" place:"+poicity.getPoi().getGeometry().getCoordinates());
+      JSONObject j_poi = poicity.getJSONObject("poi");
+      String city = mapper.readValue(poicity.getJSONObject("city").toString(), String.class);
+      tracelog.info("name:"+j_poi.get("display_name"));
       JSONArray array = new JSONArray();
-      array.put(new JSONObject(poicity.getPoi()));
-      tracelog.info("Write POI(obj):"+new JSONObject(poicity.getPoi()).toString());
-      tracelog.info("Write POI(string):"+array.toString());
-      tracelog.info("Write POI:"+array);
-      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/" + poicity.getPoi().getPlace_id() + ".json"), array);
-      SavePOIs2DB.run(this.logger, poicity.getCity(), this.dao, this.properties.getProperty("citiesPath") + poicity.getCity() + "/pois/");
+      array.put(j_poi);
+      tracelog.info("Write POI(obj):"+j_poi);
+      tracelog.info("Write POI(string):"+j_poi.toString());
+      tracelog.info("Write POI(array-string):"+array.toString());
+      tracelog.info("Write POI(array):"+array);
+      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + city + "/pois/" + j_poi.getString("place_id") + ".json"), array);
+      SavePOIs2DB.run(this.logger, city, this.dao, this.properties.getProperty("citiesPath") + city + "/pois/");
     }
     catch (Exception e)
     {
