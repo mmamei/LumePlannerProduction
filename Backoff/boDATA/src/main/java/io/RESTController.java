@@ -217,16 +217,16 @@ public class RESTController
   
   @RequestMapping(value={"addPoi"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.POST})
   @ResponseBody
-  public boolean insertPoi(@RequestBody JSONObject poicity)
+  public boolean insertPoi(@RequestBody String poicity)
   {
     ObjectMapper mapper = new ObjectMapper();
     mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     try
     {
-      tracelog.info("poicity:"+poicity.toString());
-      JSONObject j_poi = poicity.getJSONObject("poi");
-      String city = mapper.readValue(poicity.getJSONObject("city").toString(), String.class);
+      tracelog.info("poicity:"+poicity);
+      JSONObject j_poi = new JSONObject(poicity).getJSONObject("poi");
+      String city = mapper.readValue(new JSONObject(poicity).getString("city"), String.class);
       tracelog.info("name:"+j_poi.get("display_name"));
       JSONArray array = new JSONArray();
       array.put(j_poi);
