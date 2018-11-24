@@ -143,6 +143,8 @@ public class RESTController
           this.destinazioni.remove(d);
           mapper.writeValue(new File(this.properties.getProperty("cities")), this.destinazioni);
           tracelog.info("City " + cityName + " has been removed");
+          //DITA needs a reload
+          Process p = Runtime.getRuntime().exec(new String[]{"bash","-c","touch /root/tomcat_webapps/DITA/WEB-INF/web.xml"});
           return true;
         }
       }
