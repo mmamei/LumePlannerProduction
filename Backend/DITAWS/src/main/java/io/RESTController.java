@@ -47,7 +47,9 @@ public class RESTController {
 				new SavePOIs2DB().run(city, dao, this.getClass().getResource("/../data/cities/"+city+"/pois").getPath());
 				logger.info("POIs collected");
 			}
-			new SaveItineraries2DB().run(city, dao,this.getClass().getResource("/../data/cities/"+city).getPath()+"/itineraries/itineraries.json");
+//logger.info("path:"+this.getClass().getResource("/../data/cities/"+city).getPath()+"itineraries/itineraries.json");
+//logger.info("path:"+"/home/WEB-INF/data/cities/"+city+"/itineraries/itineraries.json");
+			new SaveItineraries2DB().run(city, dao,"/home/WEB-INF/data/cities/"+city+"/itineraries/itineraries.json");
 		}
 
 		/*
@@ -156,7 +158,8 @@ public class RESTController {
 	public @ResponseBody boolean logpost(@RequestBody TPLog log) {
 		try {
 			PrintWriter out = new PrintWriter(new FileOutputStream(
-					new File("C:\\Users\\marco\\Dropbox\\LumePlanner\\tp_log.txt"),
+					new File("/root/dropbox/tp_log.txt"),
+//new File("C:\\Users\\marco\\Dropbox\\LumePlanner\\tp_log.txt"),
 					true));
 			out.println(log);
 			out.close();

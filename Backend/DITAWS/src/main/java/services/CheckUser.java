@@ -19,7 +19,7 @@ public class CheckUser {
         ul.setUserid(userId);
         try {
 
-            BufferedReader br = new BufferedReader(new FileReader("C:\\Tomcat7\\logs\\USERS.log"));
+            BufferedReader br = new BufferedReader(new FileReader("/var/log/tomcat8/USERS.log"));
             String line;
             while((line=br.readLine())!=null) {
                 if(line.contains(userId)) {
