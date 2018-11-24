@@ -224,20 +224,12 @@ public class RESTController
     mapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
     try
     {
-      tracelog.info("poicity:"+poicity);
       JSONObject j_poi = new JSONObject(poicity).getJSONObject("poi");
       String city = new JSONObject(poicity).getString("city");
       POI poi = mapper.readValue(j_poi.toString(), POI.class);
       List<POI> poi_list = new ArrayList<>();
       poi_list.add(poi);
-      tracelog.info("name:"+j_poi.get("display_name"));
-      JSONArray array = new JSONArray();
-      array.put(j_poi);
-      tracelog.info("Write POI(obj):"+j_poi);
-      tracelog.info("Write POI(string):"+j_poi.toString());
-      tracelog.info("Write POI(array-string):"+array.toString());
-      tracelog.info("Write POI(array):"+array);
-      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + city + "/pois/" + j_poi.getString("place_id") + ".json"), poi_list);
+      mapper.writeValue(new File(this.properties.getProperty("citiesPath") + city + "/pois/" + poi.getPlace_id() + ".json"), poi_list);
       SavePOIs2DB.run(this.logger, city, this.dao, this.properties.getProperty("citiesPath") + city + "/pois/");
     }
     catch (Exception e)
