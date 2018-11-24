@@ -226,7 +226,7 @@ public class RESTController
     {
       tracelog.info("poicity:"+poicity);
       JSONObject j_poi = new JSONObject(poicity).getJSONObject("poi");
-      String city = mapper.readValue(new JSONObject(poicity).getString("city"), String.class);
+      String city = new JSONObject(poicity).getString("city");
       tracelog.info("name:"+j_poi.get("display_name"));
       JSONArray array = new JSONArray();
       array.put(j_poi);
