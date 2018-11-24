@@ -106,6 +106,8 @@ public class RESTController
           d.setLonLatBBox(city.getLonLatBBox());
           mapper.writeValue(new File(this.properties.getProperty("cities")), this.destinazioni);
           tracelog.info("City " + city.getName() + " has been updated");
+          //DITA needs a reload
+          Process p = Runtime.getRuntime().exec(new String[]{"bash","-c","touch /root/tomcat_webapps/DITA/WEB-INF/web.xml"});
           return true;
         }
       }
@@ -120,6 +122,9 @@ public class RESTController
       if (!success) {
         return false;
       }
+      //DITA needs a reload
+      Process p = Runtime.getRuntime().exec(new String[]{"bash","-c","touch /root/tomcat_webapps/DITA/WEB-INF/web.xml"});
+      return true;
     }
     catch (IOException e)
     {
@@ -127,7 +132,6 @@ public class RESTController
       tracelog.info(city.toJSONString());
       return false;
     }
-    return true;
   }
   
   @RequestMapping(value={"removecity"}, headers={"Accept=application/json"}, method={org.springframework.web.bind.annotation.RequestMethod.POST})
