@@ -44,7 +44,8 @@ public class RESTController {
 			//cities.add(city+","+lonlatBB[0][0]+","+lonlatBB[0][1]+","+lonlatBB[1][0]+","+lonlatBB[1][1]);
 			if (!dao.checkActivities(city)) {
 				//String dir = "G:\\CODE\\IJ-IDEA\\LumePlanner\\Backend\\DITAWS\\src\\main\\webapp\\WEB-INF\\data\\"+city+"\\pois";
-				new SavePOIs2DB().run(city, dao, this.getClass().getResource("/../data/cities/"+city+"/pois").getPath());
+				//new SavePOIs2DB().run(city, dao, this.getClass().getResource("/../data/cities/"+city+"/pois").getPath());
+				new SavePOIs2DB().run(city, dao, "/home/WEB-INF/data/cities/"+city+"/pois");
 				logger.info("POIs collected");
 			}
 //logger.info("path:"+this.getClass().getResource("/../data/cities/"+city).getPath()+"itineraries/itineraries.json");
